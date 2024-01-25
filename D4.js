@@ -127,7 +127,7 @@ console.log("Es.9 " + cutString("DEVELOPER"));
 function giveMeRandom(n4) {
   const numArr = [];
   for (let i = 0; i < n4; i++) {
-    numArr.push(Math.ceil(Math.random() * 11));
+    numArr.push(Math.ceil(Math.random() * 10));
   }
   return numArr;
 }
